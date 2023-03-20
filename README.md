@@ -99,3 +99,31 @@ result2 = wave_poscor(x, y)
 if pe > 0 and x != p1:
     print(str(result2))
 ```
+
+* %Wave 4 = (Wave 3) $^{0.382}$. Here is the Python code below which helps you calculate:
+
+```ruby
+# Bull market, po3 is the most common ones (as stated above)
+def wave_positive(x,y):
+    po1 = p1 * ((1-pe)**0.125)
+    po2 = p1 * ((1-pe)**0.236)
+    po3 = p1 * ((1-pe)**0.382)
+    po4 = p1 * ((1-pe)**0.5)
+    po5 = p1 * ((1-pe)**0.618)
+    po6 = p1 * ((1-pe)**0.764)
+    po7 = p1 * ((1-pe)**0.875)
+    po8 = p1 * ((1-pe)**1)
+    return po1, po2, po3, po4, po5, po6, po7, po8
+# Enter the highest value in Wave 3
+x = float(input("Enter the final value" + " "))
+# Enter the lowest value in Wave 3
+y = float(input("Enter the initial value" + " "))
+# Calculate the increasing rate of prices
+pe = (x-y)/y
+# Enter the value to start calculating (In this case is the highest value of Wave 3)
+p1 = float(input("Enter the value you want to start" + " "))
+result4 = wave_positive(x,y)
+# pe is indeed greater than 0 as it is in bull market and the final value is the highest value of Wave 3
+if pe > 0 and x == p1:
+    print(str(result4))
+```
