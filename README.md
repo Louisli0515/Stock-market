@@ -34,7 +34,7 @@ The calculation of prices usually involves Fibonacci Sequence.
 * %Wave 2 = (Wave 1) $^{0.5}$ or (Wave 1) $^{0.618}$. Here is the Python code below which helps you calculate:
 
 ```ruby
-# Bull market
+# Bull market, po4 and po5 are the most common ones (as stated above)
 def wave_positive(x,y):
     po1 = p1 * ((1-pe)**0.125)
     po2 = p1 * ((1-pe)**0.236)
@@ -45,11 +45,16 @@ def wave_positive(x,y):
     po7 = p1 * ((1-pe)**0.875)
     po8 = p1 * ((1-pe)**1)
     return po1, po2, po3, po4, po5, po6, po7, po8
+# Enter the highest value in Wave 1
 x = float(input("Enter the final value" + " "))
+# Enter the lowest value in Wave 1
 y = float(input("Enter the initial value" + " "))
+# Calculate the increasing rate of prices
 pe = (x-y)/y
+# Enter the value to start calculating (In this case is the highest value of Wave 1)
 p1 = float(input("Enter the value you want to start" + " "))
 result4 = wave_positive(x,y)
+# pe is indeed greater than 0 as it is in bull market and the final value is the highest value of Wave 1
 if pe > 0 and x == p1:
     print(str(result4))
 ```
