@@ -247,3 +247,5 @@ if pe < 0 and x != p1:
 ``` 
 
 Note here all the code is provided in bull market, full code including bear market will be attached in the file.
+
+## Speical cases
