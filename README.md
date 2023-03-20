@@ -20,3 +20,36 @@ wave 1,3, and 5 are still **Impulse waves**, but they are moving downwards.
 * The movement of Wave 2 will not exceed the starting point of wave 1.
 * Wave 3 cannot be the shortest wave.
 * Wave 4 will never enter the domain of Wave 1.
+
+## Number the waves
+
+Sometimes a big wave can consist of a whole 5-3 wave. It will be shown as follows:
+
+![WC2](https://user-images.githubusercontent.com/128298224/226394874-f9d12b75-6d73-4a94-a082-c36bae7cb931.png)
+
+Here, Wave (1) consists of Wave (i), (ii), (iii), (iv), (v); Wave (2) consits of Wave (a), (b) and (c);... These will usually happen when you look at different time scales.
+
+## Calculation of the waves
+The calculation of prices usually involves Fibonacci Sequence.
+* %Wave 2 = (Wave 1) $^{0.5}$ or (Wave 1) $^{0.618}$. Here is the Python code below which helps you calculate:
+
+```ruby
+# Bull market
+def wave_positive(x,y):
+    po1 = p1 * ((1-pe)**0.125)
+    po2 = p1 * ((1-pe)**0.236)
+    po3 = p1 * ((1-pe)**0.382)
+    po4 = p1 * ((1-pe)**0.5)
+    po5 = p1 * ((1-pe)**0.618)
+    po6 = p1 * ((1-pe)**0.764)
+    po7 = p1 * ((1-pe)**0.875)
+    po8 = p1 * ((1-pe)**1)
+    return po1, po2, po3, po4, po5, po6, po7, po8
+x = float(input("Enter the final value" + " "))
+y = float(input("Enter the initial value" + " "))
+pe = (x-y)/y
+p1 = float(input("Enter the value you want to start" + " "))
+result4 = wave_positive(x,y)
+if pe > 0 and x == p1:
+    print(str(result4))
+```
