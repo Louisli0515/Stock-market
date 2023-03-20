@@ -128,10 +128,10 @@ if pe > 0 and x == p1:
     print(str(result4))
 ```
 
-*  %Wave 5 = %Wave 1. Here is the Python code below which helps you calculate:
+*  %Wave 5 = %Wave 1 or (%Wave 1) $^{0.618}$ or (%Wave 1) $^{0.764}$. Here is the Python code below which helps you calculate:
 
 ```ruby
-# Bull market, poc7 is the most common prices.
+# Bull market, porc4, poc5 and poc7 are the most common prices.
 def wave_poscor(x,y):
     poc1 = p1 * ((1+pe)**0.236)
     poc2 = p1 * ((1+pe)**0.382)
