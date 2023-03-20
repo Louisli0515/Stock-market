@@ -5,6 +5,7 @@ Mainly focusing on Elliott's Wave Theory to help determining the market trend
 Elliott Wave Theory is a technical analysis used to describe price movements in the financial market. The stock price movements and consumer behaviors can be identified as waves according to Elliot.
 
 ## Basic principle
-![CI_Elliot_wave-wider](https://user-images.githubusercontent.com/128298224/226378019-5ff9501c-d7f8-4756-a6d1-db5c643049f8.jpg)
+![CI_Elliot_wave](https://user-images.githubusercontent.com/128298224/226378393-fdaabf64-d22a-4be3-a462-f33a21a456a2.jpg)
+
 
 As shown in the above graph, it
