@@ -288,3 +288,23 @@ How do we determine the price of correction or price of impulse?
 * We use ***golden ratio*** to calculate.
 * Let the highest price be $p_{h}$, which is the price in approximately 2007-05-24, and the lowest price be $p_{l}$, which is the price in approximately 2002-07-24.
 * Then the correction price $p_{c}$ usually can be $$p_{c} = p_{h}^{0.125}\times p_{l}^{0.875}\quad\text{or}\quad p_{c} = p_{h}^{0.236}\times p_{l}^{0.764}\quad\text{or}\quad p_{c} = p_{h}^{0.382}\times p_{l}^{0.618}\quad\text{or}\quad p_{c} = p_{h}^{0.5}\times p_{l}^{0.5}.$$
+* Similar for impulse wave, but this time the lowest price should take the exponential of $0.125,0.236,0.382$ and $0.5$.
+* Overall, the most important thing is to find the corresponding wave which the price is correcting or pushing.
+
+I have also included my own python file named 'high_low' for calculation, which makes it easier to store and list all the possible values.
+
+```ruby
+def high_low(x,y):
+    p1 = x**(0.125)*y**(0.875)
+    p2 = x**(0.236)*y**(0.764)
+    p3 = x**(0.382)*y**(0.618)
+    p4 = x**(0.5)*y**(0.5)
+    p5 = x**(0.618)*y**(0.382)
+    p6 = x**(0.764)*y**(0.236)
+    p7 = x**(0.875)*y**(0.125)
+    return p1,p2,p3,p4,p5,p6,p7
+x = float(input("Enter the maxima" + " "))
+y = float(input("Enter the minima" + " "))
+result = high_low(x,y)
+print(str(result))
+```
