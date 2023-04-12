@@ -1,5 +1,5 @@
 # Stock-market
-Mainly focusing on Elliott's Wave Theory to help determining the market trend
+Mainly focusing on Elliott's Wave Theory to help determining the market trend and golden ratios to determine price.
 
 - [Stock-market](#stock-market)
   * [Introduction](#introduction)
@@ -275,3 +275,7 @@ Note here all the code is provided in bull market, full code including bear mark
 * Triangle formations are corrective patterns that are bound by either converging or diverging trend lines.
 * Triangles are made up of 5-waves that move against the trend in a sideways fashion. These triangles can be ***symmetrical***, ***descending***, ***ascending*** or ***expanding***.
 
+## Price determination using golden ratios
+
+* When we look at price charts over a long period of time, or a chart where the stock price has moved in a wide vertical range, the common linear price chart is not as useful as the ***semi-log*** chart.
+* The semi-log chart has a logarithmic scale for the vertical axis while the time axis is still linear - hence the chart is a semi-log chart (not a ***log*** chart).
