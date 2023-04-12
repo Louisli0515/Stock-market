@@ -266,10 +266,12 @@ Note here all the code is provided in bull market, full code including bear mark
 
 * Flat formations are simple sideways corrective waves.
 * The lengths of the waves are ***Generally*** equal in length, with wave $B$ reversing wave $A$'s move and wave $C$ undoing wave $B$'s move.
-* ***Generally*** in the above means sometimes wave $B$ can go beyond the beginning of wave $A$.
+* ***Generally*** in above means sometimes wave $B$ can go beyond the beginning of wave $A$.
 
 ### The Triangle Formation
 
 <img width = 50% height = 50% src = https://user-images.githubusercontent.com/128298224/231398454-2b407417-369d-4d75-ba88-8c8af539cba6.png>
 
+* Triangle formations are corrective patterns that are bound by either converging or diverging trend lines.
+* Triangles are made up of 5-waves that move against the trend in a sideways fashion. These triangles can be ***symmetrical***, ***descending***, ***ascending*** or ***expanding***.
 
