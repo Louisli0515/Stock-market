@@ -15,7 +15,7 @@ Mainly focusing on Elliott's Wave Theory to help determining the market trend
 Elliott Wave Theory is a technical analysis used to describe price movements in the financial market. The stock price movements and consumer behaviors can be identified as waves according to Elliot.
 
 ## Basic formation
-![CI_Elliot_wave](https://user-images.githubusercontent.com/128298224/226378393-fdaabf64-d22a-4be3-a462-f33a21a456a2.jpg)
+<img width = 50% height = 50% src = https://user-images.githubusercontent.com/128298224/226378393-fdaabf64-d22a-4be3-a462-f33a21a456a2.jpg>
 
 
 As shown in the above graph, a whole big wave consists of 8 small waves. There are two types of waves, one called **Impulse (Motive) wave** and the other called **Corrective wave**. In the above graph, wave 1,3 and 5 are **Impulse waves**, and wave 2 and 4 are **Corrective waves**. However we can see that the 5-wave trends are then corrected and reversed by 3-wave countertrends: A-B-C. 
@@ -35,7 +35,7 @@ wave 1,3, and 5 are still **Impulse waves**, but they are moving downwards.
 
 Sometimes a big wave can consist of a whole 5-3 wave. It will be shown as follows:
 
-![WC2](https://user-images.githubusercontent.com/128298224/226394874-f9d12b75-6d73-4a94-a082-c36bae7cb931.png)
+<img width = 50% height = 50% src = https://user-images.githubusercontent.com/128298224/226394874-f9d12b75-6d73-4a94-a082-c36bae7cb931.png>
 
 Here, Wave (1) consists of Wave (i), (ii), (iii), (iv), (v); Wave (2) consits of Wave (a), (b) and (c);... These will usually happen when you look at different time scales.
 
@@ -252,3 +252,5 @@ Note here all the code is provided in bull market, full code including bear mark
 ## Speical cases
 
 ### The Zig-Zag Formation
+
+<img width = 50% height = 50% src = https://user-images.githubusercontent.com/128298224/231393249-4921d6c5-4f06-432a-9fed-335350b80b70.png>
