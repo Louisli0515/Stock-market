@@ -279,3 +279,6 @@ Note here all the code is provided in bull market, full code including bear mark
 
 * When we look at price charts over a long period of time, or a chart where the stock price has moved in a wide vertical range, the common linear price chart is not as useful as the ***semi-log*** chart.
 * The semi-log chart has a logarithmic scale for the vertical axis while the time axis is still linear - hence the chart is a semi-log chart (not a ***log*** chart).
+
+<img width = 50% height = 50% src = https://user-images.githubusercontent.com/128298224/231400722-f2973762-5ae1-4a27-b69d-79bf04bc2fa0.png>
+
