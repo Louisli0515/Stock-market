@@ -249,8 +249,17 @@ if pe < 0 and x != p1:
 
 Note here all the code is provided in bull market, full code including bear market will be attached in the file.
 
-## Speical cases
+## Speical cases for Corrective Wave Patterns
 
 ### The Zig-Zag Formation
 
 <img width = 50% height = 50% src = https://user-images.githubusercontent.com/128298224/231393249-4921d6c5-4f06-432a-9fed-335350b80b70.png>
+
+* Zig-zag formations are very steep moves in price that go against the predominant trend.
+* Wave $B$ is typically shortest in length compared to Waves $A$ and $C$.
+* These zig-zag patterns can happen twice or even three times in a corection (2 to 3 zig-zag patterns linked together).
+* Each of the waves in zig-zag patterns could be broken up into 5-wave patterns.
+
+### The Flat Formation
+
+
