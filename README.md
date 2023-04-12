@@ -270,5 +270,6 @@ Note here all the code is provided in bull market, full code including bear mark
 
 ### The Triangle Formation
 
+<img width = 50% height = 50% src = https://user-images.githubusercontent.com/128298224/231398454-2b407417-369d-4d75-ba88-8c8af539cba6.png>
 
 
