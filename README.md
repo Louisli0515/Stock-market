@@ -262,4 +262,7 @@ Note here all the code is provided in bull market, full code including bear mark
 
 ### The Flat Formation
 
+<img width = 50% height = 50% src = https://user-images.githubusercontent.com/128298224/231397781-d119052c-dc39-4a52-bdea-7443f9fc703c.png>
+
+
 
