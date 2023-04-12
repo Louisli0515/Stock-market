@@ -282,3 +282,9 @@ Note here all the code is provided in bull market, full code including bear mark
 
 <img width = 50% height = 50% src = https://user-images.githubusercontent.com/128298224/231400722-f2973762-5ae1-4a27-b69d-79bf04bc2fa0.png>
 
+How do we determine the price of correction or price of impulse? 
+
+* Consider the above graph, we would like to calculate the correction price in nearly 2009-05-24, which is a correction to the price from 2002-05-24 to 2007-05-24.
+* We use ***golden ratio*** to calculate.
+* Let the highest price be $p_{h}$, which is the price in approximately 2007-05-24, and the lowest price be $p_{l}$, which is the price in approximately 2002-07-24.
+* Then the correction price $p_{c}$ usually can be $$p_{c} = p_{h}^{0.125}\times p_{l}^{0.875}\quad\text{or}\quad p_{c} = p_{h}^{0.236}\times p_{l}^{0.764}\quad\text{or}\quad p_{c} = p_{h}^{0.382}\times p_{l}^{0.618}\quad\text{or}\quad p_{c} = p_{h}^{0.5}\times p_{l}^{0.5}.$$
