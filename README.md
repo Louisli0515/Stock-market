@@ -7,7 +7,11 @@ Mainly focusing on Elliott's Wave Theory to help determining the market trend an
   * [Basic principle](#basic-principle)
   * [Number the waves](#number-the-waves)
   * [Calculation of the waves](#calculation-of-the-waves)
-  * [Speical cases](#speical-cases)
+  * [Speical cases for Corrective Wave Patterns](#speical-cases-for-corrective-wave-patterns)
+    + [The Zig-Zag Formation](#the-zig-zag-formation)
+    + [The Flat Formation](#the-flat-formation)
+    + [The Triangle Formation](#the-triangle-formation)
+  * [Price determination using golden ratios](#price-determination-using-golden-ratios)
 
 
 
